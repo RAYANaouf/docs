@@ -81,7 +81,25 @@
     "global": {
       "versions" : [
         {
-          "version" : "1.5.5",
+          "version" : "1.5.5 || pricing page , add , edit , export",
+          "default": true,
+          "hidden": false,
+          "href": "https://half-ware.com/_web/"
+        },
+        {
+          "version" : "1.5.0 || pricing page see your pricing easely",
+          "default": true,
+          "hidden": false,
+          "href": "https://half-ware.com/_web/"
+        },
+        {
+          "version" : "1.4.0 ",
+          "default": true,
+          "hidden": false,
+          "href": "https://half-ware.com/_web/"
+        },
+        {
+          "version" : "1.0.0 V ALPHA ",
           "default": true,
           "hidden": false,
           "href": "https://half-ware.com/_web/"
