@@ -35,7 +35,26 @@
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "POS Page",
+        "groups": [
+          {
+            "group": "API Documentation",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          {
+            "group": "Endpoint Examples",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Pricing Page",
         "groups": [
           {
             "group": "API Documentation",
