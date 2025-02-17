@@ -57,17 +57,15 @@
         "tab": "Pricing Page",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "o",
             "pages": [
-              "api-reference/introduction"
+              
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "ow",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
+              
             ]
           }
         ]
