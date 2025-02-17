@@ -31,12 +31,12 @@
           {
             "group": "Essentials",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "essentials/Item",
+              "essentials/POS-Invoice",
+              "essentials/Sales-Invoice",
+              "essentials/POS-Opening-Entry",
+              "essentials/POS-Closing-Entry",
+              "essentials/Payment-Entry"
             ]
           }
         ]
