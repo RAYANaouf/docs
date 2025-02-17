@@ -129,8 +129,8 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Half-ware",
+      "href": "https://half-ware.com/_web/"
     }
   },
   "footer": {
