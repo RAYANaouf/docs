@@ -45,17 +45,30 @@
         "tab": "POS Page",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Home Screen",
             "pages": [
-              "api-reference/introduction"
+              "pos-page/screens/Home Screen",
+              "pos-page/screens/Item-Selector",
+              "pos-page/screens/Selected-Items"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Debt",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
+              "pos-page/screens/Debt Screen",
+              "pos-page/screens/Customer List",
+              "pos-page/screens/Customer Debts"
+            ]
+          },
+          {
+            "group": "History",
+            "pages": [
+              "pos-page/screens/Invoices Screen"
+            ]
+          },
+          {
+            "group": "Check In Out",
+            "pages": [
             ]
           }
         ]
