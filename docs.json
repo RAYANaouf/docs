@@ -10,7 +10,7 @@
   "favicon": "/favicon.svg",
   "styling": {
     "eyebrows": "breadcrumbs",
-    "codeblocks": "dark" 
+    "codeblocks": "system" 
   },
   "navigation": {
     "tabs": [
