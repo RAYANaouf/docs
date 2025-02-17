@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "POS AR",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373"
+    "primary": "#AC6500",
+    "light": "#EB8A00",
+    "dark": "#eb8a0099"
   },
   "favicon": "/favicon.svg",
   "navigation": {
