@@ -10,7 +10,10 @@
   "favicon": "/favicon.svg",
   "styling": {
     "eyebrows": "breadcrumbs",
-    "codeblocks": "system" 
+    "codeblocks": "dark" 
+  },
+  "icons": {
+    "library": "fontawesome" 
   },
   "navigation": {
     "tabs": [
@@ -76,6 +79,31 @@
       }
     ],
     "global": {
+      "versions" : [
+        {
+          "version" : "1.5.5",
+          "default": true,
+          "hidden": false,
+          "href": "https://half-ware.com/_web/"
+        }
+      ],
+      "tabs" : [
+        {
+          "tab" : "tab1",
+          "hidden": false,
+          "href": "https://half-ware.com/_web/"
+        },
+        {
+          "tab" : "tab2",
+          "hidden": false,
+          "href": "https://half-ware.com/_web/"
+        },
+        {
+          "tab" : "tab3",
+          "hidden": false,
+          "href": "https://half-ware.com/_web/"
+        }
+      ],
       "anchors": [
         {
           "anchor": "Documentation",
