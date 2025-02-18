@@ -47,7 +47,7 @@
           {
             "group": "Home Screen",
             "pages": [
-              "pos-page/screens/Home Screen",
+              "pos-page/screens/Home-Screen",
               "pos-page/screens/Item-Selector",
               "pos-page/screens/Selected-Items"
             ]
@@ -55,15 +55,15 @@
           {
             "group": "Debt",
             "pages": [
-              "pos-page/screens/Debt Screen",
-              "pos-page/screens/Customer List",
-              "pos-page/screens/Customer Debts"
+              "pos-page/screens/Debt-Screen",
+              "pos-page/screens/Customer-List",
+              "pos-page/screens/Customer-Debts"
             ]
           },
           {
             "group": "History",
             "pages": [
-              "pos-page/screens/Invoices Screen"
+              "pos-page/screens/Invoices-Screen"
             ]
           },
           {
