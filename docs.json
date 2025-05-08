@@ -91,6 +91,47 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "CTN-BOX",
+        "groups":[
+          {
+            "group": "Doctypes",
+            "pages": [
+              "CTN-BOX/doctype/CTN-BOX",
+              "CTN-BOX/doctype/CTN-BOX-Transfer",
+              "CTN-BOX/doctype/CTN-BOX-Transfer-Item",
+              "CTN-BOX/doctype/CTN-Item",
+              "CTN-BOX/doctype/CTN-Place",
+              "CTN-BOX/doctype/CTN-Box-Transaction",
+              "CTN-BOX/doctype/CTN-Transaction-Sales-Invoice",
+              "CTN-BOX/doctype/Stock-Transfer-CTN"
+            ]
+          },
+          {
+            "group": "Client Script",
+            "pages": [
+              "CTN-BOX/client-secript/auto-fill",
+              "CTN-BOX/client-secript/CTN-Transfer-BTN-CLK",
+              "CTN-BOX/client-secript/readOnlyAfterSaving",
+              "CTN-BOX/client-secript/Assign_CTN",
+              "CTN-BOX/client-secript/filter-item-by-ctn"
+            ]
+          },
+          {
+            "group": "Server Script",
+            "pages": [
+              "CTN-BOX/server-secript/auto-create-sales-order"
+            ]
+          },
+          {
+            "group": "Hooks",
+            "pages": [
+              "CTN-BOX/hooks/Event",
+              "CTN-BOX/hooks/Fixture"
+            ]
+          }
+        ]
       }
     ],
     "global": {

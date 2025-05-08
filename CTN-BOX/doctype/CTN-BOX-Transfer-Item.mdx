@@ -1,0 +1,42 @@
+---
+title: 'CTN-BOX Transfer Item'
+---
+
+
+The **CTN-BOX Transfer Item** is a **child table Doctype** used within the **CTN-BOX Transfer** document. It stores information about each individual box included in a specific transfer operation.
+
+## 🧱 Child Doctype
+
+This Doctype cannot be used independently. It is embedded as a **table field** inside the **CTN-BOX Transfer** parent Doctype. Each row in this table corresponds to one box being moved.
+
+> 📎 Parent Doctype: [`CTN-BOX Transfer`](/CTN-BOX/doctype/CTN-BOX-Transfer)
+
+## 📦 Purpose
+
+This Doctype allows:
+
+- Selecting and listing multiple CTN-BOX records during a transfer.
+- Adding per-box notes or metadata (like special handling).
+- Managing granular box-level data within a single transfer.
+
+## 🧩 Fields
+
+| Field Name   | Type    | Description                                |
+|--------------|---------|--------------------------------------------|
+| `box`        | Link    | Link to the CTN-BOX being transferred       |
+| `box_type`   | Data    | Type of the box (copied from CTN-BOX)       |
+| `notes`      | Text    | Optional notes (e.g., fragile, priority)    |
+
+## 🔗 Related Doctypes
+
+- [`CTN-BOX`](/CTN-BOX/doctype/CTN-BOX): The actual box being moved.
+- [`CTN-BOX Transfer`](/CTN-BOX/doctype/CTN-BOX-Transfer): The parent form managing the group of transfers.
+
+## 📘 Example Entry
+
+```json
+{
+  "box": "CTN-001",
+  "box_type": "Large",
+  "notes": "Keep upright"
+}

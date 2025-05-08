@@ -1,0 +1,32 @@
+---
+title: 'CTN-BOX'
+---
+
+
+The **CTN-BOX** Doctype is the core of the CTN-BOX module. It represents a container or box entity used to manage logistics, storage, or inventory movements in the ERP system.
+
+## 📦 Purpose
+
+This Doctype is designed to:
+
+- Represent individual CTN boxes in the system.
+- Track the location, status, and content of each box.
+- Act as a reference for transfers and transactions between places or warehouses.
+
+## 🧩 Fields
+
+| Field Name        | Type        | Description                                          |
+|------------------|-------------|------------------------------------------------------|
+| `box_id`         | Data        | Unique identifier for the box                       |
+| `box_type`       | Select      | Type/category of the box (e.g., Small, Medium)      |
+| `current_place`  | Link        | Current location of the box                         |
+| `status`         | Select      | Status (Available, In Transfer, Used, etc.)         |
+| `description`    | Text        | Optional notes or description for the box           |
+
+> 🔧 You can customize these fields according to your use case.
+
+## 🔗 Relations
+
+The `CTN-BOX` Doctype is related to:
+
+- [`CTN-BOX Transfer`](/CTN-BOX/doctype/CTN-BOX-Transfer): For managing the movement of boxes between locations.

@@ -1,0 +1,49 @@
+---
+title: 'CTN-BOX Transfer'
+---
+
+
+The **CTN-BOX Transfer** Doctype is used to record and manage the movement of boxes (`CTN-BOX`) from one place to another within the system.
+
+## 🚚 Purpose
+
+This Doctype allows users to:
+
+- Log transfers of one or more boxes between locations.
+- Track source and destination places.
+- Maintain a history of box movements.
+- Ensure accountability of box handling across departments or warehouses.
+
+## 🧩 Fields
+
+| Field Name        | Type        | Description                                          |
+|------------------|-------------|------------------------------------------------------|
+| `transfer_date`  | Date        | Date when the transfer takes place                  |
+| `from_place`     | Link        | Source place (linked to `CTN-Place`)                |
+| `to_place`       | Link        | Destination place (linked to `CTN-Place`)           |
+| `boxes`          | Table       | List of boxes being transferred                     |
+| `status`         | Select      | Transfer status (e.g., Draft, In Progress, Completed) |
+| `remarks`        | Text        | Optional notes or observations                      |
+
+> The `boxes` table links to the **CTN-BOX Transfer Item** child table.
+
+## 🔗 Related Doctypes
+
+- [`CTN-BOX`](/CTN-BOX/doctype/CTN-BOX): The boxes being moved.
+- [`CTN-BOX Transfer Item`](/CTN-BOX/doctype/CTN-BOX-Transfer-Item): Child table listing individual boxes in the transfer.
+- [`CTN-Place`](/CTN-BOX/doctype/CTN-Place): Source and destination places.
+
+## 📘 Example
+
+```json
+{
+  "transfer_date": "2024-08-01",
+  "from_place": "Main Warehouse",
+  "to_place": "Branch Office",
+  "boxes": [
+    {"box_id": "CTN-001"},
+    {"box_id": "CTN-002"}
+  ],
+  "status": "In Progress",
+  "remarks": "Urgent delivery"
+}
