@@ -63,7 +63,9 @@
           {
             "group": "History",
             "pages": [
-              "pos-page/screens/Invoices-Screen"
+              "pos-page/screens/Invoices-Screen",
+              "pos-page/screens/recent-order",
+              "pos-page/screens/details-order"
             ]
           },
           {
