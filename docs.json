@@ -73,6 +73,12 @@
             "pages": [
               "pos-page/screens/Check-In-Out"
             ]
+          },
+          {
+            "group": "About",
+            "pages": [
+              "pos-page/screens/About-Screen"
+            ]
           }
         ]
       },
