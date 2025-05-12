@@ -71,6 +71,7 @@
           {
             "group": "Check In Out",
             "pages": [
+              "pos-page/screens/Check-In-Out"
             ]
           }
         ]
