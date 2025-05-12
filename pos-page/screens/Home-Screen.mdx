@@ -1,3 +1,137 @@
+# 🏠 Home Screen
+
+The **Home Screen** is the central interface of the POS (Point of Sale) system, designed for fast and intuitive sales operations.
+
+<img
+  style={{ borderRadius: '0.5rem' }}
+  src="/images/home-screen.png"
+/>
+
+## 🔍 Overview
+
+The Home Screen is divided into two primary sections:
+
+- **Left Panel :** Displays the current order summary.
+- **Right Panel :** Shows the list of available items with a quick search and filter option.
+
+
+<img
+  style={{ borderRadius: '0.5rem' }}
+  src="/images/home-screen-1.png"
+/>
+
 ---
-title: 'Home Screen'
+
+## 🧾 Left Panel: Order Summary
+
+- **Customer & Location Selectors:**  
+  Drop-downs at the top allow selection of customer  (e.g., *Public*) and price list (e.g., *Public - Alger*).
+
+- **Item Table:**  
+  - Columns: `Item`, `Quantity`, and `Amount`.
+  - Shows items added to the cart.
+
+- **Keypad & Totals:**  
+  - Numeric keypad for manual quantity/price input.
+  - `Total Quantity` and `Grand Total` at the bottom.
+  - Action buttons:
+    - ✅ **Payment** — Finalize the order.
+    - 🖨️ **Print** — Print receipt.
+    - ❌ **Supprimer** — Remove an item.
+    - ⬅️ **Retirer** — Undo last action.
+
 ---
+
+## 🛒 Right Panel: Item Selector
+
+- **Search Bar:**  
+  Allows searching by item code, name, or barcode.
+
+- **Item Cards:**  
+  - Show item image (or placeholder), name, and price (e.g., `800 DA`).
+  - Tapping adds item to the order.
+
+---
+## 🔄 Top-Right Buttons
+
+Located in the top-right corner of the Home Screen, these buttons enhance user productivity and system connectivity:
+
+<img
+  style={{ borderRadius: '0.5rem' }}
+  src="/images/home-screen-btns.png"
+/>
+
+
+
+### ✅ Sync Button
+
+- **Label:** `Sync (1)`
+- **Function:** Synchronizes local pos invoice with the central server.
+- **Indicator:** The number in parentheses shows pending changes waiting to be synced.
+
+> ⚠️ Important: Ensure stable internet before syncing to prevent data conflicts or loss.
+
+---
+
+### 📱 Floating Action Buttons
+
+
+### 2. 💰 Debt Button
+
+- **Function:** Opens the **Debt Screen**, where users can view and manage all **outstanding customer debts**.
+
+- (See the Debt Screen and Customer Debts sections in the documentation for more details.)
+
+### 3. 🔄 Check-In / Check-Out Button
+
+<img
+  style={{ borderRadius: '0.5rem' }}
+  src="/images/check_in_out_dialog.png"
+/>
+
+
+- **Label:** May vary (e.g., “Cash In/Out”)
+- **Function:** Registers the flow of money **into** or **out of** the POS cash drawer.
+- **Examples:**
+  - 💵 **Cash In**: Register incoming funds, such as starting cash or deposits.
+  - 💸 **Cash Out**: Record outgoing money, including expenses, withdrawals, or refunds unrelated to sales.
+
+- **Use Case:** Improves accountability by tracking non-sale cash movements.
+
+
+
+---
+
+### 4. 📋 Menu Button
+
+
+
+<img
+  style={{ borderRadius: '0.5rem' }}
+  src="/images/pos-menu.png"
+/>
+
+
+
+- **Icon:** Three horizontal bars or lines
+- **Function:** Opens a dropdown with advanced actions or settings.
+#### Options May Include:
+
+- **Recent POS Invoices**  
+  - **What it does:** Displays a list of recent Point of Sale (POS) invoices for quick access or review.
+
+- **Check In / Check Out**  
+  - **What it does:** Allows you to check in or check out your POS session, tracking cash handling and register activity.
+
+- **Unsettled Invoices**  
+  - **What it does:** Shows any invoices that have not been fully Synced, allowing you to manage incomplete transactions.
+
+- **Close the POS**  
+  - **What it does:** Closes the POS system, finalizing any transactions, and locking out the register until reopened.
+
+- **About**  
+  - **What it does:** Displays information about the POS system, including version details and other relevant information.
+
+---
+
+These controls make it easy to manage both digital and cash-based transactions in a retail or service setting.
